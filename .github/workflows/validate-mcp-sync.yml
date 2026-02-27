@@ -30,12 +30,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout pm-skills
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: pm-skills
 
       - name: Checkout pm-skills-mcp
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: product-on-purpose/pm-skills-mcp
           path: pm-skills-mcp
